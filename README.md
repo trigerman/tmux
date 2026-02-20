@@ -36,21 +36,20 @@ curl -fsSL https://raw.githubusercontent.com/<USER>/<REPO>/<BRANCH>/.tmux.conf -
 ```
 
 Start tmux
-`tmux new -s lab
+```tmux new -s lab```
 
 Usage
 
 Detach session
-Ctrl + B → D
+**Ctrl + B → D**
 
 Reattach
-`tmux attach -t lab
+```tmux attach -t lab```
 
 Open menu
-Ctrl + T
+**Ctrl + T**
 
 Requirements
-
 tmux ≥ 3.2 recommended
 
 Works best with Windows Terminal, iTerm2, VS Code terminal, or Kitty
