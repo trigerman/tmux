@@ -29,7 +29,7 @@ Press **Ctrl + T** inside tmux to open:
 ### One-line install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<USER>/<REPO>/<BRANCH>/.tmux.conf -o ~/.tmux.conf \
+curl -fsSL https://raw.githubusercontent.com/trigerman/tmux/main/.tmux.conf -o ~/.tmux.conf\
 && sudo apt update \
 && sudo apt install -y tmux htop xclip \
 && (tmux info >/dev/null 2>&1 && tmux source-file ~/.tmux.conf || true)
